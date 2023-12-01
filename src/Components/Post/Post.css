@@ -1,0 +1,20 @@
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: rgba(150, 112, 112, 0.394);
+    align-items: start;
+    padding: 10px;
+    gap: 30px;
+}
+
+
+.post {
+    height: 100%;
+    background-color: rgba(51, 41, 41, 0.268);
+    padding: 10px;
+}
+
+.h1 {
+    background: #755252;
+    padding-left: 15px;
+}

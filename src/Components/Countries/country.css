@@ -1,0 +1,42 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.country {
+    min-width: 300px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: rgba(52, 34, 34, 0.394);
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.country-info {
+    flex-basis: fill;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+
+.flag {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.base{
+    flex-basis: 30%;
+    max-width: 90px;
+    margin: auto;
+}
