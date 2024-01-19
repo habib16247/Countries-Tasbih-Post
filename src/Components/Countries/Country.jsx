@@ -15,8 +15,6 @@ const Country = ({item}) => {
      for (const key in languages) {
       lang = languages[key]
      }
-    //  console.log(lang)
-    //  console.log(capital)
 
   return (
     <>

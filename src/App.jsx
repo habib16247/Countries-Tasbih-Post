@@ -10,10 +10,8 @@ import PostList from './Components/Post/PostList'
 function App() {
   return (
     <>
-    {/* <Todos /> */}
-    {/* <TasbihSection /> */}
-    <CountryList />
     <Counter />
+    <CountryList />
     <PostList />
     </>
   )
