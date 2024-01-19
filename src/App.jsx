@@ -11,8 +11,6 @@ function App() {
   return (
     <>
     <Counter />
-    <CountryList />
-    <PostList />
     </>
   )
 }
